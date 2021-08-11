@@ -1,0 +1,15 @@
+a { 
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.nav-text { 
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+
+.f-white { 
+    color: white;
+}
