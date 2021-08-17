@@ -29,6 +29,8 @@
 }
 
 /* about me */
+
+
 .about-me { 
     padding: 3%;
 }
@@ -60,6 +62,43 @@
     color: #27ae60;
     
 }
+@media (max-width: 578px) { 
+    /* nav */
+    .main-nav{
+        display: none;
+    }
+
+    /* about me  */
+    .about-me{
+        display: block;
+    }
+    
+    .about-text h2{
+        text-align: center;
+       
+    }
+    .my-image{
+     
+    }
+    .service-speach{
+       
+       width: 100%;
+    }
+}
+@media(min-width : 579px){
+    .service-speach{ 
+        width: 33.3333%
+    }
+    .my-image{
+        position: relative;
+        width: 100%;
+        left: 15em;
+        box-sizing: border-box;
+    }
+
+    
+
+}
 
 /* my skilss */
 .my-skills-introduction { 
@@ -87,6 +126,9 @@
 }
 
 /* my services */
+.service-speach.col-12 { 
+    /* display: none; */
+}
 .my-services-container { 
     padding: 2%;
     margin-bottom: 2%;
@@ -133,4 +175,37 @@
 .service-speach { 
     border: 2px solid #27ae60;
     padding: 2%;
+}
+
+/* contact form */
+.form-text { 
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    width: 100%;
+    text-align: center;
+}
+.form-text-container { 
+    flex-direction: column;
+    padding: 2em 25%;
+    padding
+}
+.form-text-container input,textarea{
+
+    padding: 2em;
+    margin:0.5em
+}
+
+button { 
+    margin: 0% 40%;
+    height: 3em;
+    border-radius: 2px;
+    background-color :#27ae60;
+    font-size: 1rem;
+    font-weight: 500
+    
+}
+
+button:hover { 
+    background-color: rgb(21, 209, 137)
 }
